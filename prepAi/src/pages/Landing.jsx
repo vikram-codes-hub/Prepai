@@ -101,7 +101,7 @@ export default function Landing() {
           </p>
 
           {/* CTAs */}
-          <div style={{ display:'flex', gap:'14px', justifyContent:'center', flexWrap:'wrap', marginBottom:'72px' }}>
+          <div style={{ display:'flex', gap:'14px', justifyContent:'center', flexWrap:'wrap', marginBottom:'28px' }}>
             <Link to={isAuthenticated ? '/generate' : '/signup'} style={{ textDecoration:'none' }}>
               <button className="btn-primary glow" style={{ padding:'15px 38px', fontSize:'16px', borderRadius:'12px' }}>
                 Start Preparing Free →
@@ -112,6 +112,31 @@ export default function Landing() {
                 Sign In
               </button>
             </Link>
+          </div>
+
+          {/* Built for Digital Heroes button */}
+          <div style={{ marginBottom:'44px', display:'flex', justifyContent:'center' }}>
+            <a href="https://digitalheroesco.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration:'none' }}>
+              <button
+                style={{
+                  padding:'10px 28px',
+                  background:'transparent',
+                  border:'1px solid #ff6a00',
+                  borderRadius:'8px',
+                  color:'#ff6a00',
+                  fontSize:'13px',
+                  fontWeight:'600',
+                  cursor:'pointer',
+                  fontFamily:'Inter, sans-serif',
+                  letterSpacing:'0.3px',
+                  transition:'all 0.2s',
+                }}
+                onMouseEnter={e => e.currentTarget.style.background='rgba(255,106,0,0.1)'}
+                onMouseLeave={e => e.currentTarget.style.background='transparent'}
+              >
+                Built for Digital Heroes
+              </button>
+            </a>
           </div>
 
           {/* Stats pill */}

@@ -27,7 +27,7 @@ export default function Footer() {
             Prep<span style={{ color: '#ff6a00' }}>AI</span>
           </span>
           <span style={{ fontSize: '13px', color: '#666', fontFamily: 'Inter, sans-serif' }}>
-            Vikram • vikram@email.com
+            Vikram singh gangwar • vikramsingh9475889367@gmail.com
           </span>
         </div>
 
