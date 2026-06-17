@@ -3,6 +3,12 @@
 
 PrepAI helps candidates and recruiters generate targeted, high-quality interview questions tailored to specific roles, companies, job descriptions, categories, and difficulty levels. It uses a resilient multi-provider AI fallback system to guarantee uptime and deliver top-tier results.
 
+## 🌐 Live Deployments
+
+- **Frontend Web Application (Vercel)**: [https://prepai-beta.vercel.app/](https://prepai-beta.vercel.app/)
+- **Backend API Server (Render)**: [https://prepai-npz2.onrender.com/](https://prepai-npz2.onrender.com/)
+- **Database (Supabase)**: Managed PostgreSQL Instance
+
 ---
 
 ## 🌟 Key Features
